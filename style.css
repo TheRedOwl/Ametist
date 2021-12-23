@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    align-items: flex-start;
+}
+h2 {
+  background-color: rgb(187, 187, 187);
+  color: white;
+  padding: 5px;
+}
+h2:hover {
+  color: rgb(238, 5, 188);
+}
+#logo {
+  width: 70px;
+  height: 70px;
+}
+#T{
+    padding-top: 100px;
+}
+#T-img{
+    width: 100%;
+    height: 100%;
+}
