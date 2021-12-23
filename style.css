@@ -6,9 +6,13 @@ h2 {
   background-color: rgb(187, 187, 187);
   color: white;
   padding: 5px;
+  width: 100%;
+  max-height: auto;
+  margin: auto;
+  text-align: center;
 }
-h2:hover {
-  color: rgb(238, 5, 188);
+h2:hover{
+    cursor: default;
 }
 #logo {
   width: 70px;
@@ -17,7 +21,24 @@ h2:hover {
 #T{
     padding-top: 100px;
 }
-#T-img{
+body, html{
     width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+a>.container{
+    position: relative;
+    width: 100%;
+    max-width: auto;
+}
+a>.container>#T-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+img{
+    width: 100%;
+    height: auto;
 }
